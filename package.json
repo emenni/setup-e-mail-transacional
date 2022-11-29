@@ -1,0 +1,27 @@
+{
+  "name": "template-email-lamandinner",
+  "version": "0.0.1",
+  "description": "Criador de tempaltes de newsletter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "dev": "gulp watch",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "author": "Davi P. Guimarães",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-connect": "^5.5.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-juice": "^0.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-util": "^3.0.8"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  }
+}
